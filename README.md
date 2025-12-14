@@ -21,38 +21,105 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+Project Requirements
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+To run this project correctly, the following software must be installed:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+🧑‍💻 Basic Tools
 
-## Laravel Sponsors
+PHP 8.1 or higher
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Composer (PHP dependency manager)
 
-### Premium Partners
+Web server
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Apache / Nginx or Laravel built-in server (php artisan serve)
 
-## Contributing
+Database
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+MySQL / MariaDB
+(This project does not use SQLite)
 
-## Code of Conduct
+⚙️ Framework & Libraries
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Laravel 12
 
-## Security Vulnerabilities
+Bootstrap 5 (frontend styling)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Laravel Authentication (login & registration system)
+
+🚀 Project Installation
+
+Clone the repository:
+
+git clone <repository_url>
+cd <project_name>
+
+
+Install dependencies:
+
+composer install
+
+
+Create the environment configuration file:
+
+cp .env.example .env
+
+
+Generate the application key:
+
+php artisan key:generate
+
+
+Configure the database in the .env file:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=database_name
+DB_USERNAME=username
+DB_PASSWORD=password
+
+
+Run database migrations:
+
+php artisan migrate
+
+
+Start the application:
+
+php artisan serve
+
+
+The application will be available at:
+
+http://127.0.0.1:8000
+
+🗂 Technologies Used
+
+PHP
+
+Laravel (MVC architecture)
+
+Blade templating engine
+
+MySQL database
+
+Bootstrap 5
+
+Git & GitHub
+
+📝 Notes
+
+This project is a school To-Do / Task Manager application with the following features:
+
+user registration and login
+
+adding new tasks
+
+marking tasks as completed
+
+deleting tasks
 
 ## License
 
