@@ -105,7 +105,7 @@ The application will be available at:
 
     http://127.0.0.1:8000
 
-🗂 Technologies Used
+## 🗂 Technologies Used
 
 - PHP
 
@@ -119,7 +119,7 @@ The application will be available at:
 
 - Git & GitHub
 
-Notes
+## Notes
 
 This project is a school To-Do / Task Manager application with the following features:
 
