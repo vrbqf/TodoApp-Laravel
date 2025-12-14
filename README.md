@@ -32,18 +32,17 @@ To run this project correctly, the following software must be installed:
 - Composer (PHP dependency manager)
 
 Web server
-Laravel built-in server (php artisan serve)
+- Laravel built-in server (php artisan serve)
 
 Database
 
-MySQL / MariaDB
-(This project does not use SQLite)
+- MySQL
 
 ⚙️ Framework & Libraries
 
 Laravel 12
 
-Bootstrap 5 (frontend styling)
+- Bootstrap 5 (frontend styling)
 
 Laravel Authentication (login & registration system)
 ## Project Installation
@@ -54,21 +53,21 @@ git clone <repository_url>
 cd <project_name>
 
 
-Install dependencies:
+## Install dependencies:
 
 To run this Laravel project, follow these steps:
 
-Requirements
+## Requirements
 
 Make sure you have installed:
 
-PHP 8.1 or higher
+- PHP 8.1 or higher
 
-Composer
+- Composer
 
-MySQL
+- MySQL
 
-Laravel Installer
+- Laravel Installer
 
 Check installations:
 
@@ -84,53 +83,53 @@ Check installations:
     cd <project_name>
     composer install
 
-3️⃣ Environment Configuration
+Environment Configuration
 
 Create the environment file and generate the app key:
 
-cp .env.example .env
-php artisan key:generate
+    cp .env.example .env
+    php artisan key:generate
 
 
 Set database credentials in .env (MySQL is used, not SQLite).
 
-4️⃣ Database & Run
+Database & Run
 
 Run migrations and start the server:
 
-php artisan migrate
-php artisan serve
+    php artisan migrate
+    php artisan serve
 
 
 The application will be available at:
 
-http://127.0.0.1:8000
+    http://127.0.0.1:8000
 
 🗂 Technologies Used
 
-PHP
+- PHP
 
-Laravel (MVC architecture)
+- Laravel (MVC architecture)
 
-Blade templating engine
+- Blade templating engine
 
-MySQL database
+- MySQL database
 
-Bootstrap 5
+- Bootstrap 5
 
-Git & GitHub
+- Git & GitHub
 
-📝 Notes
+Notes
 
 This project is a school To-Do / Task Manager application with the following features:
 
-user registration and login
+- user registration and login
 
-adding new tasks
+- adding new tasks
 
-marking tasks as completed
+- marking tasks as completed
 
-deleting tasks
+- deleting tasks
 
 ## License
 
