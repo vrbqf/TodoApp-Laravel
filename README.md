@@ -21,19 +21,18 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-Project Requirements
+## Project Requirements
 
 To run this project correctly, the following software must be installed:
 
 🧑‍💻 Basic Tools
 
-PHP 8.1 or higher
+- PHP 8.1 or higher
 
-Composer (PHP dependency manager)
+- Composer (PHP dependency manager)
 
 Web server
-
-Apache / Nginx or Laravel built-in server (php artisan serve)
+Laravel built-in server (php artisan serve)
 
 Database
 
@@ -47,8 +46,7 @@ Laravel 12
 Bootstrap 5 (frontend styling)
 
 Laravel Authentication (login & registration system)
-
-🚀 Project Installation
+## Project Installation
 
 Clone the repository:
 
@@ -58,36 +56,49 @@ cd <project_name>
 
 Install dependencies:
 
-composer install
+To run this Laravel project, follow these steps:
 
+Requirements
 
-Create the environment configuration file:
+Make sure you have installed:
+
+PHP 8.1 or higher
+
+Composer
+
+MySQL
+
+Laravel Installer
+
+Check installations:
+
+    php -v
+    composer -V
+    laravel --version
+
+2️Project Setup
+
+    Clone the repository and install dependencies:
+    
+    git clone <repository_url>
+    cd <project_name>
+    composer install
+
+3️⃣ Environment Configuration
+
+Create the environment file and generate the app key:
 
 cp .env.example .env
-
-
-Generate the application key:
-
 php artisan key:generate
 
 
-Configure the database in the .env file:
+Set database credentials in .env (MySQL is used, not SQLite).
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=database_name
-DB_USERNAME=username
-DB_PASSWORD=password
+4️⃣ Database & Run
 
-
-Run database migrations:
+Run migrations and start the server:
 
 php artisan migrate
-
-
-Start the application:
-
 php artisan serve
 
 
